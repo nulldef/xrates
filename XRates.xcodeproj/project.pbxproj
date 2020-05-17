@@ -16,6 +16,19 @@
 		5F2A5DEB24714097001EA2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A5DE924714097001EA2F5 /* LaunchScreen.storyboard */; };
 		5F2A5DF624714097001EA2F5 /* XRatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5DF524714097001EA2F5 /* XRatesTests.swift */; };
 		5F2A5E0124714097001EA2F5 /* XRatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E0024714097001EA2F5 /* XRatesUITests.swift */; };
+		5F2A5E122471462B001EA2F5 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E112471462B001EA2F5 /* Rate.swift */; };
+		5F2A5E142471463C001EA2F5 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E132471463C001EA2F5 /* Currency.swift */; };
+		5F2A5E1724714663001EA2F5 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E1624714663001EA2F5 /* Date.swift */; };
+		5F2A5E19247146D9001EA2F5 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E18247146D9001EA2F5 /* JSON.swift */; };
+		5F2A5E1C24714803001EA2F5 /* RateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E1A24714803001EA2F5 /* RateCell.swift */; };
+		5F2A5E1D24714803001EA2F5 /* RateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A5E1B24714803001EA2F5 /* RateCell.xib */; };
+		5F2A5E2024714C10001EA2F5 /* GetRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E1F24714C10001EA2F5 /* GetRates.swift */; };
+		5F2A5E222471515C001EA2F5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E212471515C001EA2F5 /* Color.swift */; };
+		5F2A5E24247169A6001EA2F5 /* RequestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E23247169A6001EA2F5 /* RequestParams.swift */; };
+		5F2A5E2A247175B9001EA2F5 /* AddCurrencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E29247175B9001EA2F5 /* AddCurrencyController.swift */; };
+		5F2A5E2F24717AF8001EA2F5 /* CheckableRateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E2D24717AF8001EA2F5 /* CheckableRateCell.swift */; };
+		5F2A5E3024717AF8001EA2F5 /* CheckableRateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2A5E2E24717AF8001EA2F5 /* CheckableRateCell.xib */; };
+		5F2A5E3224718668001EA2F5 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A5E3124718668001EA2F5 /* DetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,19 @@
 		5F2A5DFC24714097001EA2F5 /* XRatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XRatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2A5E0024714097001EA2F5 /* XRatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRatesUITests.swift; sourceTree = "<group>"; };
 		5F2A5E0224714097001EA2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2A5E112471462B001EA2F5 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		5F2A5E132471463C001EA2F5 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		5F2A5E1624714663001EA2F5 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		5F2A5E18247146D9001EA2F5 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		5F2A5E1A24714803001EA2F5 /* RateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCell.swift; sourceTree = "<group>"; };
+		5F2A5E1B24714803001EA2F5 /* RateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateCell.xib; sourceTree = "<group>"; };
+		5F2A5E1F24714C10001EA2F5 /* GetRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRates.swift; sourceTree = "<group>"; };
+		5F2A5E212471515C001EA2F5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5F2A5E23247169A6001EA2F5 /* RequestParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParams.swift; sourceTree = "<group>"; };
+		5F2A5E29247175B9001EA2F5 /* AddCurrencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCurrencyController.swift; sourceTree = "<group>"; };
+		5F2A5E2D24717AF8001EA2F5 /* CheckableRateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckableRateCell.swift; sourceTree = "<group>"; };
+		5F2A5E2E24717AF8001EA2F5 /* CheckableRateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckableRateCell.xib; sourceTree = "<group>"; };
+		5F2A5E3124718668001EA2F5 /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +129,13 @@
 			children = (
 				5F2A5DDB24714096001EA2F5 /* AppDelegate.swift */,
 				5F2A5DDD24714096001EA2F5 /* SceneDelegate.swift */,
-				5F2A5DDF24714096001EA2F5 /* ViewController.swift */,
-				5F2A5DE124714096001EA2F5 /* Main.storyboard */,
-				5F2A5DE724714097001EA2F5 /* Assets.xcassets */,
-				5F2A5DE924714097001EA2F5 /* LaunchScreen.storyboard */,
+				5F2A5E1E24714BEB001EA2F5 /* Services */,
+				5F2A5E152471465A001EA2F5 /* Lib */,
+				5F2A5E1024714601001EA2F5 /* Models */,
+				5F2A5E0E247145E9001EA2F5 /* Controllers */,
+				5F2A5E0F247145F2001EA2F5 /* Views */,
 				5F2A5DEC24714097001EA2F5 /* Info.plist */,
+				5F2A5DE724714097001EA2F5 /* Assets.xcassets */,
 				5F2A5DE424714096001EA2F5 /* XRates.xcdatamodeld */,
 			);
 			path = XRates;
@@ -129,6 +157,57 @@
 				5F2A5E0224714097001EA2F5 /* Info.plist */,
 			);
 			path = XRatesUITests;
+			sourceTree = "<group>";
+		};
+		5F2A5E0E247145E9001EA2F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F2A5E1A24714803001EA2F5 /* RateCell.swift */,
+				5F2A5DDF24714096001EA2F5 /* ViewController.swift */,
+				5F2A5E29247175B9001EA2F5 /* AddCurrencyController.swift */,
+				5F2A5E2D24717AF8001EA2F5 /* CheckableRateCell.swift */,
+				5F2A5E3124718668001EA2F5 /* DetailsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5F2A5E0F247145F2001EA2F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F2A5DE124714096001EA2F5 /* Main.storyboard */,
+				5F2A5E1B24714803001EA2F5 /* RateCell.xib */,
+				5F2A5E2E24717AF8001EA2F5 /* CheckableRateCell.xib */,
+				5F2A5DE924714097001EA2F5 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F2A5E1024714601001EA2F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F2A5E112471462B001EA2F5 /* Rate.swift */,
+				5F2A5E132471463C001EA2F5 /* Currency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F2A5E152471465A001EA2F5 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				5F2A5E1624714663001EA2F5 /* Date.swift */,
+				5F2A5E18247146D9001EA2F5 /* JSON.swift */,
+				5F2A5E212471515C001EA2F5 /* Color.swift */,
+				5F2A5E23247169A6001EA2F5 /* RequestParams.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		5F2A5E1E24714BEB001EA2F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5F2A5E1F24714C10001EA2F5 /* GetRates.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F2A5DEB24714097001EA2F5 /* LaunchScreen.storyboard in Resources */,
+				5F2A5E3024717AF8001EA2F5 /* CheckableRateCell.xib in Resources */,
+				5F2A5E1D24714803001EA2F5 /* RateCell.xib in Resources */,
 				5F2A5DE824714097001EA2F5 /* Assets.xcassets in Resources */,
 				5F2A5DE324714096001EA2F5 /* Main.storyboard in Resources */,
 			);
@@ -262,10 +343,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2A5E142471463C001EA2F5 /* Currency.swift in Sources */,
 				5F2A5DE024714096001EA2F5 /* ViewController.swift in Sources */,
+				5F2A5E2F24717AF8001EA2F5 /* CheckableRateCell.swift in Sources */,
+				5F2A5E222471515C001EA2F5 /* Color.swift in Sources */,
+				5F2A5E1C24714803001EA2F5 /* RateCell.swift in Sources */,
+				5F2A5E1724714663001EA2F5 /* Date.swift in Sources */,
 				5F2A5DDC24714096001EA2F5 /* AppDelegate.swift in Sources */,
+				5F2A5E3224718668001EA2F5 /* DetailsController.swift in Sources */,
 				5F2A5DE624714096001EA2F5 /* XRates.xcdatamodeld in Sources */,
+				5F2A5E2024714C10001EA2F5 /* GetRates.swift in Sources */,
+				5F2A5E122471462B001EA2F5 /* Rate.swift in Sources */,
 				5F2A5DDE24714096001EA2F5 /* SceneDelegate.swift in Sources */,
+				5F2A5E19247146D9001EA2F5 /* JSON.swift in Sources */,
+				5F2A5E24247169A6001EA2F5 /* RequestParams.swift in Sources */,
+				5F2A5E2A247175B9001EA2F5 /* AddCurrencyController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
